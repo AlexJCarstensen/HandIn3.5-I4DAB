@@ -105,7 +105,7 @@ namespace Adressekartotek.Controllers
                 TelefonID = telefon.TelefonID
             };
 
-            return CreatedAtRoute("DefaultApi", new { id = telefon.TelefonID }, telefon);
+            return CreatedAtRoute("DefaultApi", new { id = telefon.TelefonID }, dto);
         }
 
         // DELETE: api/Telefons/5

@@ -107,7 +107,7 @@ namespace Adressekartotek.Controllers
                 Fornavn = person.Fornavn
             };
 
-            return CreatedAtRoute("DefaultApi", new { id = person.PersonID }, person);
+            return CreatedAtRoute("DefaultApi", new { id = person.PersonID }, dto);
         }
 
         // DELETE: api/People/5

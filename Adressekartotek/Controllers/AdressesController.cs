@@ -106,7 +106,7 @@ namespace Adressekartotek.Controllers
                 PostNummer = adresse.PostNummer
             };
 
-            return CreatedAtRoute("DefaultApi", new { id = adresse.AdresseID }, adresse);
+            return CreatedAtRoute("DefaultApi", new { id = adresse.AdresseID }, dto);
         }
 
         // DELETE: api/Adresses/5
